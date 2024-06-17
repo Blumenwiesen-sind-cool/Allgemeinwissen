@@ -128,7 +128,7 @@ function showResult() {
     let scoreTag = '';
     
     if (userScore >= 9) { // if user scored 9 or 10
-        scoreTag = '<span>Ausgezeichnet!🏅😍🏆 Du hast <p>' + userScore + '</p> von <p>' + questions.length + '</p> richtig beantwortet. Großartige Arbeit!</span>';
+        scoreTag = '<span>Ausgezeichnet!🏅😍🏆 Du hast <p>' + userScore + '</p> von <p>' + questions.length + '</p> richtig beantwortet. Super!!!</span>';
     } else if (userScore >= 7) { // if user scored 7 oder 8
         scoreTag = '<span>Sehr gut! ✨️🏆 Du hast <p>' + userScore + '</p> von <p>' + questions.length + '</p> richtig beantwortet. Gut gemacht!</span>';
     } else if (userScore >= 5) { // if user scored 5 oder 6

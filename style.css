@@ -10,6 +10,8 @@
 
 body {
   background: #480270;
+  background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: auto;
 }
 
 ::selection {
