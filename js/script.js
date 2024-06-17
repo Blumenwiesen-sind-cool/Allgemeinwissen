@@ -136,7 +136,7 @@ function showResult() {
     } else if (userScore >= 3) { // if user scored 3 oder 4
         scoreTag = '<span>Guter Versuch!🐞 Du hast <p>' + userScore + '</p> von <p>' + questions.length + '</p> richtig beantwortet. Übung macht den Meister!</span>';
     } else { // if user scored 0, 1 oder 2
-        scoreTag = '<span>Gibt nicht auf! 🍀 Du hast <p>' + userScore + '</p> von <p>' + questions.length + '</p> richtig beantwortet. Nicht aufgeben, du wirst immer besser!</span>';
+        scoreTag = '<span>Nicht aufgeben! 🍀 Du hast <p>' + userScore + '</p> von <p>' + questions.length + '</p> richtig beantwortet. Nicht aufgeben, du wirst immer besser!</span>';
     }
 
     scoreText.innerHTML = scoreTag; //adding new span tag inside score_Text
